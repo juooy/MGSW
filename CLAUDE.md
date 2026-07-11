@@ -1,4 +1,4 @@
-# MGSW — MeriGoldSoftWare 회사 홈페이지
+# MGSW — MariGoldSoftWare 회사 홈페이지
 
 순수 HTML/CSS 정적 사이트. 빌드 도구 없음. GitHub Pages(main 브랜치 루트)로 자동 배포된다.
 
