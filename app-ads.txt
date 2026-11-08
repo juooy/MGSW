@@ -1,1 +1,4 @@
+google.com, pub-6373977829859680, DIRECT, f08c47fec0942fa0
 google.com, pub-9857465756874707, DIRECT, f08c47fec0942fa0
+pangleglobal.com, 5038703, DIRECT
+contact=cs.sw.mg@gmail.com
