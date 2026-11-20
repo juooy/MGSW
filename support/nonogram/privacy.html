@@ -24,70 +24,92 @@
 
     <main class="container">
       <h1>네모로직 개인정보처리방침</h1>
-      <p class="meta">시행일: 2026년 11월 16일</p>
+      <p class="meta">개정일 2026년 11월 20일 · 분석 관련 조항은 해당 기능을 포함한 Android 버전부터 적용됩니다.</p>
       <p>MariGoldSoftWare(이하 ‘개발자’)는 Nonogram(네모로직, Android 패키지명 com.juooy.nonogram) 앱에서 처리하는 정보와 이용자의 권리를 다음과 같이 안내합니다.</p>
 
-      <h2>1. 개인정보의 처리 목적과 항목</h2>
-      <p>앱은 회원가입을 요구하지 않습니다. 퍼즐 저장·불러오기와 플레이를 위해 이용자가 만든 퍼즐의 ID, 제목, 격자 크기, 정답 격자, 행·열 힌트, 퍼즐 검증 결과와 플레이 횟수 항목을 기기의 앱 전용 저장소에 저장합니다. 그림 팩의 완료·공개 상태, 튜토리얼 완료 여부와 소리 설정도 기기에 저장합니다.</p>
-      <p>퍼즐 제목이나 격자 그림에 이름 등 개인정보 또는 민감정보를 직접 표현할 수 있으므로 입력할 때 주의해 주세요. 이 데이터는 기기에만 저장되며 앱이 개발자에게 전송하지 않습니다. 현재 Android 릴리스 앱은 인터넷 권한을 요청하지 않습니다. 앱 설치·업데이트 과정에서 Google Play가 별도로 처리하는 정보는 이 앱 데이터와 구분되며 Google의 정책이 적용됩니다.</p>
+      <h2>1. 처리 목적과 항목</h2>
+      <p>앱은 회원가입을 요구하지 않습니다. 앱은 퍼즐을 저장하고 플레이할 수 있도록 이용자가 만든 퍼즐의 ID, 제목, 격자 크기, 정답 격자, 행·열 힌트, 퍼즐 검증 결과와 플레이 횟수 항목을 기기의 앱 전용 저장소에 저장합니다. 그림 팩의 완료·공개 상태, 튜토리얼 완료 여부, 소리 설정과 분석 동의 여부도 기기에 저장합니다. 이용자가 만든 퍼즐의 제목과 격자에는 이름이나 민감정보를 입력하지 않도록 주의해 주세요. 앱은 이용자가 만든 퍼즐의 내용과 게임 진행 저장 파일을 기기 안에서만 사용합니다.</p>
+      <p>분석 기능이 포함된 Android 버전에서 이용자가 동의하면, 개발자는 퍼즐 난이도와 튜토리얼 개선을 위해 다음 데이터를 Google Analytics for Firebase로 수집합니다.</p>
+      <ul>
+        <li>기본 제공·다운로드 팩의 ID와 버전, 퍼즐 ID, 격자 크기, 첫 완료 전 시도 또는 다시 풀기 여부, 시작·완료·중단·재시작, 앱이 포그라운드에 있는 동안의 풀이 시간, 첫 입력까지의 시간, 첫 보드 입력 후 30초 이상 추가 입력이 없는 구간과 표시한 칸의 비율 구간</li>
+        <li>튜토리얼 버전, 단계 ID, 최초 진입 또는 다시 열기 여부, 단계 시작·완료·중단, 중단 시 단계 목표 달성 여부</li>
+        <li>Google SDK가 자동으로 처리하는 앱 설치 인스턴스 식별자, 앱 버전, 기기 및 운영체제 정보, 기본 앱 사용 이벤트(앱 실행·세션 시작 등), IP 주소에서 추정한 대략적인 지역</li>
+      </ul>
+      <p>앱이 별도로 기록하는 퍼즐·튜토리얼 분석 이벤트에서 이용자가 만든 퍼즐, 편집기 테스트 플레이, 입력한 칸의 좌표와 정답 격자를 제외합니다. Android 앱에서 광고 ID 수집과 광고 개인화 신호는 꺼져 있습니다. <a href="https://support.google.com/analytics/answer/11582702">Google Analytics SDK 수집 항목</a></p>
+      <p>추가 팩을 제공하는 경우 앱은 목록을 조회하고 팩을 받기 위해 인터넷에 연결합니다. 분석 동의와 관계없이 팩을 받을 수 있습니다. Google Play가 앱의 설치·업데이트를 위해 별도로 처리하는 정보에는 Google의 정책이 적용됩니다.</p>
 
       <h2>2. 처리 및 보유 기간</h2>
-      <p>개발자는 앱의 퍼즐과 진행 정보를 서버에 보관하지 않습니다. 기기에 저장된 정보는 이용자가 해당 데이터를 삭제하거나 앱 데이터를 지우거나 앱을 제거할 때까지 보관됩니다. 기기의 상태 등에 따라 데이터가 유실될 수 있습니다. 이 Android 빌드의 앱 백업 설정은 꺼져 있습니다.</p>
+      <p>기기에 저장된 정보는 이용자가 해당 데이터를 삭제하거나 앱 데이터를 지우거나 앱을 제거할 때까지 보관됩니다. 기기의 상태에 따라 데이터가 유실될 수 있으며, Android 앱 백업 설정은 꺼져 있습니다.</p>
+      <p>Google Analytics의 사용자 및 이벤트 수준 데이터는 해당 서비스의 보유 설정에 따라 삭제됩니다. BigQuery 일일 내보내기를 연결하는 경우 내보낸 데이터에는 BigQuery의 별도 보유 설정이 적용됩니다. 로컬 분석용 CSV에는 앞서 설명한 분석 항목 중 보고서에 필요한 필드만 포함하며 앱 설치 인스턴스 식별자는 포함하지 않습니다. <a href="https://support.google.com/analytics/answer/7667196">Google Analytics 데이터 보유 안내</a></p>
 
       <h2>3. 파기 절차와 방법</h2>
-      <p>앱에서 퍼즐 하나를 삭제하면 해당 퍼즐이 삭제됩니다. 그림 조각 진행과 다른 퍼즐, 설정은 이 동작으로 삭제되지 않습니다. 앱의 저장 데이터를 지우거나 앱을 제거하면 기기의 앱 저장 데이터가 삭제됩니다.</p>
-      <p>기기의 앱 저장 데이터를 삭제하거나 앱을 제거하면 그림 조각 진행과 설정도 함께 삭제되며 개발자가 복구할 수 없습니다.</p>
+      <p>앱에서 퍼즐 하나를 삭제하면 해당 퍼즐의 기기 내 저장 파일을 삭제합니다. 앱의 저장 데이터를 지우거나 앱을 제거하면 퍼즐, 그림 조각 진행, 설정 등 기기의 앱 데이터가 삭제되며 개발자가 복구할 수 없습니다.</p>
+      <p>동의 철회, 앱 데이터 삭제, 앱 제거는 이미 전송된 분석 데이터를 자동으로 삭제하지 않습니다. 분석 데이터 삭제를 요청하려면 아래 문의처로 연락해 주세요. 개발자는 보유한 데이터에서 요청 대상 기록을 확인할 수 있는 범위와 관련 법령에 따라 처리합니다.</p>
 
-      <h2>4. 개인정보의 제3자 제공 및 처리 위탁</h2>
-      <p>이 버전의 앱에서 개발자가 수집하는 퍼즐 및 진행 정보가 없으므로 해당 정보를 제3자에게 제공하거나 처리 위탁하지 않습니다.</p>
+      <h2>4. 외부 서비스 처리 및 국외 처리</h2>
+      <p>이용자가 분석에 동의한 후 앱을 이용하면 위 분석 항목이 암호화된 인터넷 연결(HTTPS)로 Google에 전송됩니다. Google은 Google Analytics for Firebase 서비스를 제공하기 위해 해당 정보를 처리하며, 서비스 운영에 사용되는 시설이 있는 국외에서 처리하거나 보관할 수 있습니다. BigQuery 내보내기를 연결하는 경우 해당 데이터는 Google Cloud BigQuery의 데이터셋에도 저장됩니다. Google에 대한 개인정보 문의는 Google 개인정보 보호 도움말 센터에서 접수할 수 있습니다. <a href="https://firebase.google.com/support/privacy">Firebase 개인정보 보호 안내</a> · <a href="https://support.google.com/analytics/answer/11598602">Google Analytics의 데이터 전송 방식</a> · <a href="https://support.google.com/policies/answer/9581826">Google 개인정보 보호 도움말 센터</a></p>
 
-      <h2>5. 민감정보 및 가명정보</h2>
-      <p>이 버전의 앱에는 민감정보를 별도로 입력받는 양식이나 기능이 없으며 가명정보를 처리하지 않습니다. 다만 이용자가 퍼즐 제목이나 격자 그림에 민감정보를 직접 표현할 수 있으므로 입력할 때 주의해 주세요.</p>
+      <h2>5. 민감정보</h2>
+      <p>앱에는 민감정보를 별도로 입력받는 양식이나 기능이 없습니다. 이용자가 만든 퍼즐의 제목과 격자에 민감정보를 직접 표현할 수 있으므로 입력할 때 주의해 주세요.</p>
 
       <h2>6. 이용자와 법정대리인의 권리 및 행사 방법</h2>
-      <p>이용자는 앱에서 직접 만든 퍼즐을 확인·수정·삭제할 수 있습니다. 앱에 저장된 전체 정보를 지우려면 기기의 앱 설정에서 저장 데이터를 삭제하거나 앱을 제거할 수 있습니다.</p>
-      <p>이용자와 법정대리인은 개인정보 열람·정정·삭제 및 처리정지 등에 관해 아래 문의처로 연락할 수 있습니다. 개발자가 보유한 정보의 범위와 관련 법령에 따라 처리합니다.</p>
+      <p>분석 수집은 기본적으로 꺼져 있습니다. 분석 동의를 거부해도 퍼즐, 튜토리얼과 추가 팩 등 앱 기능을 같은 방식으로 이용할 수 있습니다. 동의한 뒤에는 앱의 <strong>분석 설정 → 수집 끄기</strong>에서 언제든지 철회해 이후 수집을 중단할 수 있습니다.</p>
+      <p>이용자는 앱에서 직접 만든 퍼즐을 확인·수정·삭제할 수 있습니다. 이용자와 법정대리인은 열람·정정·삭제·처리정지 등에 관해 아래 문의처로 연락할 수 있습니다. 개발자는 보유한 정보의 범위와 관련 법령에 따라 요청을 처리합니다.</p>
 
       <h2>7. 개인정보 문의처</h2>
       <ul>
-        <li>문의처: MariGoldSoftWare 개인정보 관련 문의</li>
-        <li>이메일: <a href="mailto:cs.sw.mg@gmail.com">cs.sw.mg@gmail.com</a></li>
+        <li>MariGoldSoftWare 개인정보 관련 문의</li>
+        <li>이메일 <a href="mailto:cs.sw.mg@gmail.com">cs.sw.mg@gmail.com</a></li>
       </ul>
 
-      <h2>8. 개인정보 자동 수집 장치</h2>
-      <p>이 버전의 앱은 개발자에게 이용자 정보를 자동 전송하는 분석 또는 광고 도구를 사용하지 않습니다. Android 릴리스 앱은 인터넷 권한을 요청하지 않습니다.</p>
+      <h2>8. 자동 수집과 안전성 확보 조치</h2>
+      <p>앱의 자동 분석 항목은 제1항에 설명되어 있으며, 이용자는 제6항의 절차에 따라 수집을 끌 수 있습니다. 퍼즐과 진행 파일은 Android 운영체제가 접근을 제한하는 앱 저장소에 보관합니다. 분석 데이터는 전송 중 암호화됩니다.</p>
 
-      <h2>9. 개인정보의 안전성 확보 조치</h2>
-      <p>퍼즐과 진행 정보는 기기의 앱 저장소에 저장됩니다. Android 운영체제의 앱 저장소 접근 제한이 적용됩니다. 기기의 잠금과 접근 권한은 이용자가 관리해 주세요.</p>
-
-      <h2>10. 방침 변경</h2>
-      <p>앱에서 처리하는 정보나 처리 방식이 바뀌면 이 방침을 갱신하고 시행일을 표시합니다.</p>
+      <h2>9. 방침 변경</h2>
+      <p>앱에서 처리하는 정보나 처리 방식이 바뀌면 이 방침을 갱신하고 언제부터 적용되는지 안내합니다.</p>
 
       <section lang="en">
         <h2>Privacy Policy — English</h2>
-        <p>Effective date: November 16, 2026.</p>
+        <p>Revised November 20, 2026. The analytics provisions apply from the Android release that includes analytics.</p>
         <p>MariGoldSoftWare (the developer) explains how Nonogram for Android (com.juooy.nonogram) handles app data and how users can exercise their rights.</p>
-        <h3>1. Purpose and data handled</h3>
-        <p>No account is required. To save, load and play custom puzzles, the app stores their IDs, titles, grid dimensions, solution grids, row and column clues, puzzle validation results and play-count field in the device's private app storage. It also stores picture-pack completion and reveal status, tutorial completion and sound preferences.</p>
-        <p>Users may put personal or sensitive information, such as a name, in a puzzle title or grid artwork and should take care when creating them. This data is stored only on the device and the app does not send it to the developer. The current Android release does not request the INTERNET permission. Information Google Play separately handles for installation and updates is distinct from this app data and is subject to Google's policies.</p>
+
+        <h3>1. Purposes and data handled</h3>
+        <p>The app requires no account. To save and play custom puzzles, the app stores their IDs, titles, grid dimensions, solution grids, row and column clues, validation results and play-count field in the device’s private app storage. The app also stores picture-pack completion and reveal status, tutorial completion, sound preferences and the analytics consent choice on the device. Take care to avoid entering names or sensitive information in the title or artwork of a custom puzzle. The app uses custom puzzle content and saved progress files only on the device.</p>
+        <p>In Android versions with analytics, if you opt in, the developer collects the following data through Google Analytics for Firebase to improve puzzle difficulty and the tutorial.</p>
+        <ul>
+          <li>For built-in or downloaded packs, pack ID and version, puzzle ID, grid dimensions, whether the attempt is before the first clear or a replay, starts, completions, exits and restarts, time spent solving while the app is in the foreground, time to first input, periods of at least 30 seconds without further input after the first board action, and the range for the percentage of cells marked</li>
+          <li>Tutorial version, step ID, first or repeat opening, steps started, completed or exited, and whether the step goal was met at exit</li>
+          <li>Data Google’s SDK processes automatically, including an app instance identifier, app version, device and operating system information, basic app usage events such as app opens and session starts, and approximate region inferred from the IP address</li>
+        </ul>
+        <p>The puzzle and tutorial events defined by the app exclude custom puzzles, editor test play, individual cell coordinates and solution grids. Advertising ID collection and advertising personalization signals are disabled in the Android app. <a href="https://support.google.com/analytics/answer/11582702">Data collected by the Google Analytics SDK</a></p>
+        <p>When additional packs are available, the app connects to the internet to list and download them. Pack downloads are available regardless of the analytics choice. Google’s policies govern the information Google Play handles separately for app installations and updates.</p>
+
         <h3>2. Retention</h3>
-        <p>The developer does not store puzzle or progress data on a server. Local data is retained until the user deletes it, clears app data or uninstalls the app; device conditions may also cause data loss. Android app backup is disabled for this release.</p>
+        <p>Data stored on the device is kept until you delete it, clear app data or uninstall the app. Device conditions can cause data loss. Android app backup is disabled.</p>
+        <p>Google Analytics deletes user- and event-level data according to that service’s retention settings. If daily export to BigQuery is enabled, exported data is subject to separate BigQuery retention settings. The local CSV used for reporting contains only the fields needed for the report from the analytics described above and excludes the app instance identifier. <a href="https://support.google.com/analytics/answer/7667196">Google Analytics data retention</a></p>
+
         <h3>3. Deletion</h3>
-        <p>Deleting a custom puzzle in the app deletes that puzzle, not other puzzles, picture progress or preferences. Clearing app data in device settings or uninstalling the app deletes its local app data, including progress and preferences. The developer cannot restore it.</p>
-        <h3>4. Third-party sharing and processing on behalf of the developer</h3>
-        <p>The developer does not collect the app's puzzle or progress data and therefore does not share it with third parties or entrust its processing to others.</p>
-        <h3>5. Sensitive and pseudonymized information</h3>
-        <p>The app has no form or feature specifically for sensitive information and does not process pseudonymized data. Users can nevertheless put sensitive information in puzzle titles or grid artwork and should take care.</p>
+        <p>Deleting a custom puzzle in the app removes its saved file from the device. Clearing app data or uninstalling the app removes local app data, including puzzles, picture progress and settings. The developer cannot restore it.</p>
+        <p>Withdrawing consent, clearing app data or uninstalling the app does not automatically delete analytics data already transmitted. To request deletion of analytics data, use the contact below. The developer handles requests under applicable law and to the extent it can identify the relevant records among the data it holds.</p>
+
+        <h3>4. External services and cross-border processing</h3>
+        <p>When you use the app after opting in, the analytics data described above is sent to Google over an encrypted internet connection (HTTPS). Google processes the data to provide Google Analytics for Firebase and may process or store it abroad where it operates facilities for the service. If BigQuery export is enabled, the exported data is also stored in a Google Cloud BigQuery dataset. You can contact Google about privacy through its Privacy Help Center. <a href="https://firebase.google.com/support/privacy">Firebase privacy information</a> · <a href="https://support.google.com/analytics/answer/11598602">Google Analytics data transmission</a> · <a href="https://support.google.com/policies/answer/9581826">Google Privacy Help Center</a></p>
+
+        <h3>5. Sensitive information</h3>
+        <p>The app has no form or feature designed to collect sensitive information. Use care when creating a custom puzzle because its title or grid can contain sensitive information that you enter.</p>
+
         <h3>6. Rights of users and legal guardians</h3>
-        <p>Users can view, edit and delete their custom puzzles in the app. All local app data can be removed through device settings or by uninstalling the app. Users and legal guardians may contact the developer about access, correction, deletion or suspension of processing; requests will be handled according to applicable law and the information held.</p>
+        <p>Analytics collection is off by default. You can decline consent and continue to use puzzles, the tutorial and additional packs. After opting in, you can stop future collection at any time by choosing <strong>Analytics settings (분석 설정) → Turn off collection (수집 끄기)</strong> in the app.</p>
+        <p>You can view, edit and delete your custom puzzles in the app. Users and legal guardians may contact the developer to request access, correction, deletion or restriction of processing. The developer handles requests under applicable law and based on the information it holds.</p>
+
         <h3>7. Privacy contact</h3>
-        <p>MariGoldSoftWare privacy inquiries: <a href="mailto:cs.sw.mg@gmail.com">cs.sw.mg@gmail.com</a>.</p>
-        <h3>8. Automatic data collection</h3>
-        <p>This release does not use analytics or advertising tools to automatically send user data to the developer. The Android release does not request the INTERNET permission.</p>
-        <h3>9. Safeguards</h3>
-        <p>Puzzle and progress data is kept in the device's private app storage and is subject to Android's app-storage access restrictions. Users should manage device locks and access permissions.</p>
-        <h3>10. Policy changes</h3>
-        <p>If app data or its processing changes, this policy will be updated with an effective date.</p>
+        <p>MariGoldSoftWare privacy inquiries <a href="mailto:cs.sw.mg@gmail.com">cs.sw.mg@gmail.com</a>.</p>
+
+        <h3>8. Automatic collection and safeguards</h3>
+        <p>Section 1 describes the data the app collects automatically for analytics. Section 6 explains how to turn off collection. Puzzles and progress files are kept in app storage with Android access restrictions. Analytics data is encrypted in transit.</p>
+
+        <h3>9. Policy changes</h3>
+        <p>If app data or its processing changes, the developer will update this policy and state when the changes apply.</p>
       </section>
     </main>
 
